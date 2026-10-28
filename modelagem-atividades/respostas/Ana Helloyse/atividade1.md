@@ -85,7 +85,7 @@ Essas funcionalidades podem melhorar a experiência de uso, mas não são essenc
 
 - Chat em tempo real entre alunos e professores
 
-O chat poderá ser desenvolvido em uma versão futura, pois a equipe consider.a que sua implementação pode atrasar a primeira versão. Assim, será possível priorizar as funcionalidades essenciais e disponibilizar o sistema mais rapidamente.
+O chat poderá ser desenvolvido em uma versão futura, pois a equipe considera que sua implementação pode atrasar a primeira versão. Assim, será possível priorizar as funcionalidades essenciais e disponibilizar o sistema mais rapidamente.
 
 ### 5. Especificação
 
