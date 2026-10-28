@@ -1,4 +1,4 @@
- ATIVIDADE 1 - MODELAGEM
+# ATIVIDADE 1 - MODELAGEM
 
 **Aluno(a):** Ana Helloyse Gomes de Freitas
 
@@ -15,37 +15,49 @@ Seu principal objetivo é reunir esses serviços em um único sistema, tornando 
 Os principais stakeholders do sistema são:
 
 Alunos: precisam consultar notas, horários e avisos acadêmicos.
+
 Professores: precisam publicar materiais didáticos e comunicados.
+
 Coordenação: necessita divulgar eventos e informações acadêmicas.
+
 Equipe: São responsáveis por estabelecer regras de acesso, segurança e funcionamento do sistema.
 
-Para identificar e compreender as necessidades desses stakeholders, podem ser utilizadas as seguintes técnicas de elicitação:
+**Para identificar e compreender as necessidades desses stakeholders, podem ser utilizadas as seguintes técnicas de elicitação:**
 
 Entrevistas: a equipe de desenvolvimento pode conversar diretamente com alunos, professores e coordenadores para compreender suas dificuldades, expectativas e necessidades. Por exemplo, pode perguntar quais informações os alunos mais consultam e quais problemas enfrentam no sistema atual.
 Questionários: podem ser enviados a um número maior de usuários para identificar as funcionalidades mais desejadas e avaliar a satisfação com o sistema atual. As respostas ajudam a reconhecer necessidades comuns e definir prioridades.
 
 ### 3. Análise e modelagem
 
-Requisitos funcionais (RF)
+**Requisitos funcionais (RF)**
 
 RF01: O sistema deve permitir que os alunos consultem suas notas acadêmicas.
+
 RF02: O sistema deve permitir que os alunos consultem seus horários de aulas.
+
 RF03: O sistema deve permitir que os alunos recebam avisos e comunicados acadêmicos.
+
 RF04: O sistema deve permitir que os professores publiquem materiais didáticos.
+
 RF05: O sistema deve permitir que os professores publiquem comunicados destinados aos alunos.
+
 RF06: O sistema deve permitir que a coordenação divulgue eventos e informações acadêmicas.
+
 RF07: O sistema deve permitir que os usuários realizem login utilizando credenciais válidas.
+
 RF08: O sistema deve permitir que os usuários autorizados acessem as funcionalidades correspondentes ao seu perfil.
 
-Requisitos não funcionais (RNF)
+**Requisitos não funcionais (RNF)**
 
 RNF01 — Desempenho: O sistema deve apresentar as consultas de notas e horários em até 2 segundos em pelo menos 95% das solicitações, sob condições normais de uso definidas para os testes.
+
 RNF02 — Segurança: O sistema deve exigir autenticação para acessar informações acadêmicas restritas e impedir que usuários consultem dados para os quais não possuem autorização.
+
 RNF03 — Usabilidade: O sistema deve permitir que pelo menos 90% dos participantes de um teste de usabilidade concluam tarefas básicas, como consultar notas e horários, sem ajuda de um avaliador.
 
 ### 4. Negociação
 
-Must have (indispensável):
+**Must have (indispensável):**
 
 - Login e autenticação dos usuários.
 - Consulta de notas e horários pelos alunos.
@@ -55,21 +67,21 @@ Must have (indispensável):
 
 Essas funcionalidades são indispensáveis porque atendem às principais necessidades apresentadas e às exigências de segurança da universidade.
 
-Should have (importante):
+**Should have (importante):**
 
 - Melhorias na navegação e na organização das informações.
 - Sistema de avisos e notificações acadêmicas.
 
 São importantes para melhorar a experiência dos usuários e a comunicação, embora alguns avisos possam inicialmente ser consultados diretamente no sistema.
 
-Could have (desejável):
+**Could have (desejável):**
 
 - Personalização das notificações de acordo com as preferências dos alunos.
 - Recursos adicionais de personalização da interface.
 
 Essas funcionalidades podem melhorar a experiência de uso, mas não são essenciais para disponibilizar os serviços acadêmicos principais.
 
-Won't have (fora do escopo da versão atual):
+**Won't have (fora do escopo da versão atual):**
 
 - Chat em tempo real entre alunos e professores
 
